@@ -12,8 +12,5 @@ data class UserSetting (
     val email: String,
 
     @Column(nullable = false)
-    val dailyAvailabilityLowerThreshold: Int,
-
-    @Column(nullable = false)
-    val other: String
+    val dailyAvailabilityLowerThreshold: Int
 )
